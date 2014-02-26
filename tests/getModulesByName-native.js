@@ -27,7 +27,6 @@ var nativeModuleNames = [
 	'querystring',
 	'readline',
 	'repl',
-	'smalloc',
 	'stream',
 	'string_decoder',
 	'sys',
