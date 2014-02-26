@@ -2,6 +2,7 @@
 
 var poison = require('../lib');
 
+
 // redirect all debug logging library calls directly to console.log
 function myCustomDebug(name) {
     return console.log.bind(console, name + ':');
