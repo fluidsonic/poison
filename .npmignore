@@ -1,0 +1,11 @@
+/.npmignore
+/.project
+/.settings
+/.travis.yml
+/examples
+/tests
+.DS_Store
+node_modules
+npm-debug.log
+*.sublime-project
+*.sublime-workspace
