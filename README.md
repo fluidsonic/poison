@@ -102,6 +102,12 @@ If poison was loaded multiple times, `getModulesByName()` returns all modules lo
 
 You should call `require('poison')` as early as possible in your project or you may miss some modules.
 
+### Known Incompatibilities
+
+poison may miss module loads because of other libraries which also hook the module system but in a non-extendable way:
+
+- coffee-script (< 1.7.0) - breaks `addHook()` almost completely
+
 
 
 Installation
